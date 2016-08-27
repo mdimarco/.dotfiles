@@ -3,8 +3,8 @@
 	clean = git media clean %f
 	smudge = git media smudge %f
 [user]
-	name = mac
-	email = maclockard@gmail.com
+	name = mason 
+	email = mhd894@gmail.com
 [core]
 	autocrlf = input
 [credential]

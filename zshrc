@@ -1,7 +1,7 @@
 # oh-my-zsh set-up
 export ZSH=~/.oh-my-zsh
 ZSH_THEME="agnoster"
-plugins=(git brew pip web-search tmux colored-man-pages)
+plugins=(git brew pip web-search colored-man-pages)
 source $ZSH/oh-my-zsh.sh
 
 # use the right term for tmux
@@ -22,7 +22,7 @@ else
 fi
 
 # Remove "user@hostname" when I'm the one logged in
-DEFAULT_USER="maclockard"
+DEFAULT_USER="mdimarco"
 
 export EDITOR="vim"
 
@@ -48,10 +48,6 @@ alias vimrc='vim ~/.dotfiles/vimrc'
 alias idot='~/.dotfiles/install'
 alias updot='dotfiles ; git pull ; idot ; cd ~-'
 alias pushdot='dotfiles ; git add . ; git commit ; git push origin master ; cd ~-'
-
-# ssh aliases
-alias sshclear='ssh -Y jml13@ssh.clear.rice.edu'
-alias sshsky='ssh -Y jml13@sky.clear.rice.edu'
 
 #shortcuts
 alias work='cd ~/workspace'
